@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+.navbar{
+	background-color:black;
+	color:white;
+	overflow:hidden;
+	display:flex;
+	opacity:0.9;
+}
+
+.navbar a{
+	float: left;
+	text-align: center;
+	padding: 15px 20px;
+	font-size: 20px;
+	text-decoration: none;
+	margin:auto;
+}
+
+.navbar a:hover{
+	background-color: white;
+	color: black;
+}
+
+.navbar a.active{
+	background-color:grey;
+	color:blue;
+}
+
+.outerbox{
+	display:flex;
+	position:fixed;
+	background-color:red;
+	overflow:hidden;
+	height:100%;
+	width:99%;
+}
+
+.leftpanel{
+	background-color:grey;
+	overflow:hidden;
+	width:15%;
+	padding:20px;
+}
+
+.leftpanel a{
+	color:black;
+	font-size:15px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.leftpanel a:hover{
+	background-color: white;
+	color: black;
+}
+
+.rightpanel{
+	display:flex;
+	
+	overflow:hidden;
+	padding: 10px;
+	height:100%;
+	width:85%;
+}
